@@ -18,5 +18,6 @@
 
     /* Completeness */
     "strict": true,                                      /* Enable all strict type-checking options. */
+    "strictPropertyInitialization": false                /* Check for class properties that are declared but not set in the constructor. */
   }
 }

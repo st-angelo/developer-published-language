@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "push": "npm run build && cd dist",
+    "push": "npm run build && cd dist && npm publish",
     "build": "npm run delete && npm run build:tsc && npm run build:copy-files",
     "build:tsc": "tsc",
     "build:copy-files": "node ./scripts/copyFiles.js",
