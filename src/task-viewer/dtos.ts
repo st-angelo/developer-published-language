@@ -1,3 +1,23 @@
+// #region Request
+
+export interface GetIssuesRequest {
+  route: string;
+}
+
+export interface AddIssueRequest {
+  issueKey: string;
+  route: string;
+}
+
+export interface DeleteIssueRequest {
+  issueKey: string;
+  route: string;
+}
+
+// #endregion
+
+// #region Response
+
 export interface IssueExistsResponse {
   issueKey: string;
   route: string;
@@ -21,6 +41,8 @@ export interface IssueInvalidResponse {
 export interface IssueIsCompletedResponse {
   issueKey: string;
 }
+
+// #endregion
 
 export class IssueDto {
   id: string;

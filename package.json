@@ -1,6 +1,6 @@
 {
   "name": "developer-published-language",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Collection of DTOs and other entities shared by developer-ui and developer-api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
